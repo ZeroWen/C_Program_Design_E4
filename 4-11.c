@@ -34,4 +34,5 @@ int main(){
 		d=t;
 	}
 	printf("The sorted result is :%d,%d,%d,%d\n",a,b,c,d);
+	return 0;
 }

@@ -10,4 +10,5 @@ int main(){
 	else
 		y=2*x-1;
 	printf("y is %d\n",y);
+	return 0;
 }
