@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 	int n,i=2;
-	printf("Please input a integer number(>3):");
+	printf("Please input an integer number(>3):");
 	scanf("%d",&n);
 	if(n==2){
 		printf("2 is a prime.\n");
@@ -37,7 +37,7 @@ code from textbook
 #include <math.h>
 int main(){
 	int n,i,k;
-	printf("Please enter a integer number:");
+	printf("Please enter an integer number:");
 	scanf("%d",&n);
 	k=sqrt(n);
 	for(i=2;i<=k;i++)
