@@ -12,6 +12,7 @@ int main(){
 		printf("%d is a prime.\n",a);
 	else
 		printf("%d is not a prime.\n",a);
+	return 0;
 }
 int prime(int a){
 	int i=2,sign=1;

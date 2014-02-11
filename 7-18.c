@@ -9,6 +9,7 @@ int main(){
 	printf("Please enter the day:");
 	scanf("%d",&day);
 	printf("%d.%d is day %d of the year %d.\n",month,day,count_day(year,month,day),year);
+	return 0;
 }
 int count_day(int year,int month,int day){
 	int num;

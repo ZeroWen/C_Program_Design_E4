@@ -11,6 +11,7 @@ int main(){
 	}
 	num_space(a);
 	printf("%d %d %d %d\n",d1,d2,d3,d4);
+	return 0;
 }
 void num_space(int a){
 	d1=a/1000;
