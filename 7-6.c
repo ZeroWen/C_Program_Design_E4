@@ -9,6 +9,7 @@ int main(){
 	scanf("%s",str2);
 	connect_str(str1,str2);
 	printf("The new string is %s\n",str);
+	return 0;
 }
 void connect_str(char str1[],char str2[]){
 	int i,t;
