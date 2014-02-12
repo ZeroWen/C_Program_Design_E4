@@ -7,6 +7,7 @@ int main(){
 	scanf("%s",str1);
 	vowel(str1,str2);
 	printf("The vowel letters in the string: %s\n",str2);
+	return 0;
 }
 void vowel(char str1[],char str2[]){
 	int i,j=0;
