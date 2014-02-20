@@ -18,7 +18,7 @@ int main(){
 	return 0;
 }*/
 
-//å†’æ³¡æ’åº
+//Ã°ÅİÅÅĞò
 #include <stdio.h>
 int main(){
 	int i,j,s[10],t;
@@ -32,7 +32,6 @@ int main(){
 				s[i]=s[i+1];
 				s[i+1]=t;
 			}
-
 	printf("The sorted numbers are:");
 	for(i=0;i<=9;i++)
 		printf("%d,",s[i]);
