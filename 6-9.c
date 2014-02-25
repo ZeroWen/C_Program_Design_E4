@@ -2,7 +2,7 @@
 #define N 15
 int main(){
 	int a[N],n,i,x,y,sign=0;
-	printf("Please input 15 descending numbers:\n");
+	printf("Please input %d descending numbers:\n",N);
 	for(i=0;i<N;i++)
 		scanf();
 	printf("Please input a number:");
