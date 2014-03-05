@@ -15,10 +15,9 @@
  */
 #include <stdio.h>
 int main(){
-	int x1,x2,x3,x4,x5;
-	float y;
+	float x1,x2,x3,x4,x5,y;
 	printf("Please input five integer numbers:");
-	scanf("%d,%d,%d,%d,%d",&x1,&x2,&x3,&x4,&x5);
+	scanf("%f,%f,%f,%f,%f",&x1,&x2,&x3,&x4,&x5);
 	y=x1*x1+x2*x2+x3*x3+x4*x4+x5*x5;
 	printf("The sum of square is %5.0f\n",y);
 	return 0;

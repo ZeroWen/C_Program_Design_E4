@@ -17,6 +17,6 @@
  */
 #include <stdio.h>
 int main(){
-	printf("what a beautiful campus !\nI wish you every success !\n");
+	printf("\"what a beautiful campus !\"\n\"I wish you every success !\"\n");
 	return 0;
 }

@@ -15,12 +15,12 @@
  */
 #include <stdio.h>
 int main(){
-	int a,b;
+	float a,b;
 	printf("Please input two integer numbers:");
-	scanf("%d,%d",&a,&b);
-	printf("Sum:a+b=%d\n",a+b);	//输出两个数的和
-	printf("Difference:a-b=%d\n",a-b);	//输出两个数的差
-	printf("Product:a*b=%d\n",a*b);	//输出两个数的积
-	printf("Quotient:a/b=%f\n",(float)a/b);	//输出两个数的商
+	scanf("%f,%f",&a,&b);
+	printf("Sum:a+b=%f\n",a+b);	//输出两个数的和
+	printf("Difference:a-b=%f\n",a-b);	//输出两个数的差
+	printf("Product:a*b=%f\n",a*b);	//输出两个数的积
+	printf("Quotient:a/b=%f\n",a/b);	//输出两个数的商
 	return 0;
 }
