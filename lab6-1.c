@@ -15,7 +15,7 @@
  */
 
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 #define random(x) (rand()%x)
 int main(){
 	int a[15],i,j,n=0;
