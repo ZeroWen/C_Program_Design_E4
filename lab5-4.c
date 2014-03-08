@@ -10,9 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Jackie Kuo (), j.kuo2012@gmail.com
- *   Organization:  
- *
+ *         Author:  Jackie Kuo, j.kuo2012@gmail.com
  * =====================================================================================
  */
 
