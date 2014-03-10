@@ -31,8 +31,7 @@ int main(){
 int main(){
 	char str[100],c;
 	int n,i;
-	for(n=0;(c=getchar())!='\n';n++)
-		;
+	for(n=0;(c=getchar())!='\n';n++);
 	printf("The length of the string you just input is %d\n",n);
 	return 0;
 }
