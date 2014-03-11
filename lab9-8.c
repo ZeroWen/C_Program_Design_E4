@@ -28,7 +28,7 @@ int main(){
 int count(char *str,char *str_child){
 	if(!*str_child)
 		return 0;
-	char *cp = ( char * ) str;
+	char *cp=(char*)str;
 	char *s1,*s2;
 	int count=0;
 	while(*cp){
