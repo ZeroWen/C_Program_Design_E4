@@ -22,7 +22,7 @@ int main(){
 	gets(str);
 	printf("Please input the child string:\n");
 	gets(str_child);
-	printf("The child string appear %d time(s) in the string.\n",count(str,str_child));
+	printf("The child string appears %d time(s) in the string.\n",count(str,str_child));
 	return 0;
 }
 int count(char *str,char *str_child){
