@@ -22,9 +22,7 @@ int sum_day(int month,int day){
 }
 //函数leap:判断是否为闰年
 int leap(int year){
-	int leap;
-	leap=year%4==0&&year%100!=0||year%400==0;
-	return(leap);
+	return((year%4==0)&&(year%100!=0||year%400==0));
 }
 /*
 #include <stdio.h>
