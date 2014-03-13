@@ -58,7 +58,7 @@ int main(){
 		scanf("%s",tea[i].work);
 	}
 	printf("Student\nname  num  sex job   class\n");
-	for(i=0;i<N;i++)
+	for(i=0;i<M;i++)
 		printf("%-6s %d %c %s %d\n",stu[i].name,stu[i].num,stu[i].sex,stu[i].job,stu[i].class);
 	printf("Teacher\nname  num  sex job   work\n");
 	for(i=0;i<N;i++)
