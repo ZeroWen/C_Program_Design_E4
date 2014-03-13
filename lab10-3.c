@@ -30,6 +30,12 @@ int main(){
 	struct Date today;
 	struct tm *tpointer;
 	tpointer=localtime(&now);
-	printf("date:%d/%d/%d\ntime:%d:%d:%d\n",tpointer->tm_year+1900,tpointer->tm_mon+1,tpointer->tm_mday,tpointer->tm_hour,tpointer->tm_min,tpointer->tm_sec);
+	today.year=tpointer->tm_year+1900;
+	today.month=tpointer->tm_mon+1;
+	today.day=tpointer->tm_mday;
+	today.hour=tpointer->tm_hour;
+	today.minute=tpointer->tm_min;
+	today.second=tpointer->tm_sec;
+	printf("date:%d/%d/%d\ntime:%d:%d:%d\n",today.year,today.month,today.day,today.hour,today.minute,today.second);
 	return 0;
 }
